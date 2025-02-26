@@ -1,0 +1,39 @@
+.about {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 38rem;
+}
+
+.about__profile img {
+  width: 11rem;
+  height: 11rem;
+}
+
+.about__profile h1 {
+  font-size: 2rem;
+  color: var(--secondary-color-200);
+}
+
+.about__info {
+  display: grid;
+  gap: 1rem;
+}
+
+.about__info li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about__info img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
